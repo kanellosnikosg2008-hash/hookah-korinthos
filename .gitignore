@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+build
+.env
+.DS_Store
+ezgif-508424080810f003-jpg
+ezgif-508424080810f003-jpg.zip
+process-frames.js
