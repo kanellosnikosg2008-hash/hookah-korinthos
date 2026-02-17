@@ -24,7 +24,7 @@ export default function SmokeCanvas() {
         const preloadImages = () => {
             for (let i = 0; i < FRAME_COUNT; i++) {
                 const img = new Image();
-                img.src = `/sequence/frame_${i}.webp`;
+                img.src = `/sequence/frame_${i}.jpg`;
                 img.onload = () => {
                     loadedCount++;
                     if (loadedCount === FRAME_COUNT) {
